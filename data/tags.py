@@ -1,5 +1,5 @@
 import json
-with open ('notes.json', 'r', encoding='utf-8') as file:
+with open ('../', 'r', encoding='utf-8') as file:
     data = json.load(file)
 print(data)
 # Sample input data (replace this with actual input)

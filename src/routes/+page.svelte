@@ -44,26 +44,30 @@
 		}
 	}
 
-	$: hasActiveFilter = searchTitle || searchBook || searchTag || searchKeyword || searchRating;
+	let selectedBook = '';
+	let selectedTag = '';
 
+	// Get unique book titles
+	$: uniqueBooks = [...new Set(notes.map((note) => note.book))].sort();
+	$: uniqueTags = [...new Set(notes.flatMap((note) => note.tags))].sort();
+
+	// Modified filteredNotes to use selectedBook
 	$: filteredNotes = notes.filter((note) => {
 		const matchesTitle = searchTitle
 			? note.title.toLowerCase().includes(searchTitle.toLowerCase())
 			: true;
-		const matchesBook = searchBook
-			? note.book.toLowerCase().includes(searchBook.toLowerCase())
-			: true;
-		const matchesTag = searchTag
-			? note.tags.some((tag) => tag.toLowerCase().includes(searchTag.toLowerCase()))
-			: true;
+		const matchesBook = selectedBook ? note.book === selectedBook : true;
+		const matchesTag = selectedTag ? note.tags.includes(selectedTag) : true;
 		const matchesKeyword = searchKeyword
 			? note.description.toLowerCase().includes(searchKeyword.toLowerCase()) ||
 				note.comments.toLowerCase().includes(searchKeyword.toLowerCase())
 			: true;
-		const matchesRating = searchRating ? note.helpfulness >= parseFloat(searchRating) : true;
-		return matchesTitle && matchesBook && matchesTag && matchesKeyword && matchesRating;
+		const matchesRating = searchRating ? note.helpfulness === parseInt(searchRating) : true;
+		return matchesBook && matchesTag && matchesKeyword && matchesRating;
 	});
 
+	// Update hasActiveFilter
+	$: hasActiveFilter = selectedBook || searchTitle || searchTag || searchKeyword || searchRating;
 	let randomNotes = getRandomNotes(randomCount);
 
 	// Update random notes when count changes or notes update
@@ -198,8 +202,18 @@
 	<section>
 		<h2>Filter Notes</h2>
 		<input bind:value={searchTitle} placeholder="Search by Title" />
-		<input bind:value={searchBook} placeholder="Browse by Book" />
-		<input bind:value={searchTag} placeholder="Search by Tag" />
+		<select bind:value={selectedBook}>
+			<option value="">Search by Book</option>
+			{#each uniqueBooks as book}
+				<option value={book}>{book}</option>
+			{/each}
+		</select>
+		<select bind:value={selectedTag}>
+			<option value="">Search by Tag</option>
+			{#each uniqueTags as tag}
+				<option value={tag}>{tag}</option>
+			{/each}
+		</select>
 		<input bind:value={searchKeyword} placeholder="Search Description/Comments" />
 		<input
 			bind:value={searchRating}
@@ -287,5 +301,16 @@
 		overflow-wrap: break-word;
 		max-width: 100%;
 		overflow-x: auto;
+	}
+	select {
+		color: gray;
+		display: block;
+		margin: 5px 0;
+		width: 100%;
+		padding-top: 1px;
+		padding-bottom: 2px;
+	}
+	option {
+		color: black;
 	}
 </style>
