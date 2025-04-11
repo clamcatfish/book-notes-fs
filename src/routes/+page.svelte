@@ -67,7 +67,7 @@
 	});
 
 	// Update hasActiveFilter
-	$: hasActiveFilter = selectedBook || searchTitle || searchTag || searchKeyword || searchRating;
+	$: hasActiveFilter = selectedBook || searchTitle || selectedTag || searchKeyword || searchRating;
 	let randomNotes = getRandomNotes(randomCount);
 
 	// Update random notes when count changes or notes update
