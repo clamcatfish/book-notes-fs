@@ -16,7 +16,7 @@
 	let searchTag = '';
 	let searchKeyword = '';
 	let searchRating = '';
-	let randomCount = 15;
+	let randomCount = 10;
 
 	function resetNewNote() {
 		newNote = {
@@ -63,7 +63,7 @@
 				note.comments.toLowerCase().includes(searchKeyword.toLowerCase())
 			: true;
 		const matchesRating = searchRating ? note.helpfulness === parseInt(searchRating) : true;
-		return matchesBook && matchesTag && matchesKeyword && matchesRating;
+		return matchesTitle && matchesBook && matchesTag && matchesKeyword && matchesRating;
 	});
 
 	// Update hasActiveFilter
