@@ -281,9 +281,9 @@
     ],
     "description": "Don't make your reward for exercising eating a bowl of ice cream.",
     "comments": "Don't reward yourself with video games if you're trying to stay away from them. Don't reward banned behaviours.",
-    "helpfulness": 1,
+    "helpfulness": 5,
     "createdAt": "2024-06-01T04:03:03.204Z",
-    "updatedAt": "2024-06-01T04:03:03.204Z"
+    "updatedAt": "2025-04-17T17:51:38.033Z"
   },
   {
     "id": 1744217000020,
@@ -3607,9 +3607,9 @@
     ],
     "description": "Whatever humble art you practice: Are you sure you're making time for it? Are you loving what you do enough to make the time? Can you trust that if you put in the effort, the rest will take care of itself? Because it will. Love the craft, be a craftsman.",
     "comments": "July 10. Spend time drawing. It doesn't have to be vigorous. It needs time to grow.",
-    "helpfulness": 1,
+    "helpfulness": 5.5,
     "createdAt": "2024-06-06T18:44:15.000Z",
-    "updatedAt": "2024-06-09T20:09:35.175Z"
+    "updatedAt": "2025-04-17T17:57:09.299Z"
   },
   {
     "id": 1744217000245,
@@ -4279,9 +4279,9 @@
     ],
     "description": "\"Stop wandering about! You aren't likely to read your own notebooks, or ancient histories, or the anthologies you've collected to enjoy in your old age. Get busy with life's purpose, toss aside empty hopes, get active in your own rescue--if you care for yourself at all--and do it while you can.\" The purpose of all our reading and studying is to aid us in the pursuit of the good life (and death). At some point, we must put our books aside and take action. So that, as Seneca put it, the \"words become works.\" There is an old saying that a \"scholar made is a soldier spoiled.\" We want to be both scholars and soldiers--soldiers in the good fight. That's what's next for you. Move forward, move onward. Another book isn't the answer. The right choices and decisions are. Who knows how much time you have left, or what awaits us tomorrow?",
     "comments": "December 31. You can only read books for so long before you have to actually put in work. Experience is the best teacher anyway. At some point you must realize that books can't get you all the way to your goals. So start taking action",
-    "helpfulness": 1,
+    "helpfulness": 5,
     "createdAt": "2024-06-06T18:44:15.000Z",
-    "updatedAt": "2024-06-10T17:04:51.708Z"
+    "updatedAt": "2025-04-17T17:55:33.496Z"
   },
   {
     "id": 1744217000290,
@@ -4747,9 +4747,9 @@
     ],
     "description": "\"The more the body suffers, the more the spirit flowers.\" Blaine works as a self-described endurance artist, performing feats involving willpower instead of illusion. He stood for thirty-five hours more than eighty feet above New York's Bryant Park, without a safety harness, atop a round pillar just twenty-two inches wide. He spent sixty-three sleepless hours in Times Square encased in a giant block of ice. He was entombed in a coffin with six inches of headroom for a week, during which he consumed nothing except water. The list goes on.",
     "comments": "This is the extent of willpower. This man can subjugate himself to anything. You probably couldn't do it for 1 minute. He has mastered his ability to control his mind. If you subject your body to stress, it makes your mind more powerful. So, put your body in stress, so that your mind doesn't lose control over it.",
-    "helpfulness": 1,
+    "helpfulness": 4,
     "createdAt": "2024-06-06T18:44:15.000Z",
-    "updatedAt": "2024-06-11T20:42:38.670Z"
+    "updatedAt": "2025-04-17T17:50:09.746Z"
   },
   {
     "id": 1744217000320,
@@ -5210,9 +5210,9 @@
     ],
     "description": "Men or beasts who overreact and panic in the face of anxiety can hardly be expected to choose the wisest course of action. They might well expose themselves to unnecessary danger, either by selecting a course of action too impulsively or by becoming completely incapacitated, too overwhelmed by the feeling of anxiety to function.",
     "comments": "Your best decision making will be when your heart rate is low and you are calm. Anxiety makes rash decisions easier and more attractive",
-    "helpfulness": 1,
+    "helpfulness": 5,
     "createdAt": "2024-06-23T20:31:31.000Z",
-    "updatedAt": "2024-06-23T21:03:10.744Z"
+    "updatedAt": "2025-04-17T17:53:11.567Z"
   },
   {
     "id": 1744217000350,
@@ -5550,9 +5550,9 @@
     ],
     "description": "Five hundred small decisions, five hundred tiny actions, compose your day, today, and every day. Could you aim for one or two of these at a better result? ... Thus, you setting the following goal: by the end of the day, I want things in my life to be a tiny bit better than they were this morning. ... What you aim at determines what you see",
     "comments": "Decisions like getting out of bed, give dividends later on. Plugging in your devices and unplugging them at the right time. Reading in the morning. Touching your cock. Sitting down to watch TV. These are all decisions you make every day. You know what the right answer is, so what's stopping you? Will you be a grumpy old man that never learned how to live beyond the lifestyle of a 15 year old? Or will you become a man.",
-    "helpfulness": 1,
+    "helpfulness": 6,
     "createdAt": "2024-06-23T20:31:31.000Z",
-    "updatedAt": "2024-06-23T20:58:43.494Z"
+    "updatedAt": "2025-04-17T17:52:23.792Z"
   },
   {
     "id": 1744217000373,
@@ -6268,12 +6268,14 @@
     "title": "Don't Linger. Just Approach.",
     "page": "122",
     "book": "Models",
-    "tags": [],
+    "tags": [
+      "Relationships"
+    ],
     "description": "Don't linger. If you linger and hover aorund her, it's almost guaranteed to make the approach feel awkward and forced. Imagine a straight line between you and her, and when you're ready to go, follow that straight line until you're standing in front of her. Don't stand around and kick the dirt at your feet trying to work up the nerve right next to her.",
     "comments": "",
-    "helpfulness": 1,
+    "helpfulness": 5,
     "createdAt": "2024-07-17T04:21:05.000Z",
-    "updatedAt": "2024-07-17T04:21:05.000Z"
+    "updatedAt": "2025-04-17T17:56:17.398Z"
   },
   {
     "id": 1744217000429,
@@ -7099,17 +7101,10 @@
       "Resilience"
     ],
     "description": "Therefore, if God is going to give you the chance to become a successful person, he has to make it difficult, He has to lay out a gauntlet because within that gauntlet some people will quit and they can go become losers which allow the people who do not quit to be winners. You're on the highway, you're driving. There's exits all along the way to Loserville, Losertown. When you're tired, when you don't feel like working, when you don't have enough time, when it's difficult. You can get off the highway anytime you want, but if you stay on the highway you will end up a winner. ... The difference is, they do not quit. I don't want to hear any excuses. God doesn't care about excuses.",
-<<<<<<< HEAD
-    "comments": "",
-    "helpfulness": 5,
-    "createdAt": "2024-09-13T01:00:37.000Z",
-    "updatedAt": "2025-04-14T16:24:13.663Z"
-=======
     "comments": "Exits to Losertown irl: Not caring, going to sleep, skipping workouts, not getting A's, Using social media, playing video games, taking the easy way",
     "helpfulness": 6.4,
     "createdAt": "2024-09-13T01:00:37.000Z",
     "updatedAt": "2025-04-15T22:35:15.219Z"
->>>>>>> fc963eddd2f6b7e16a3babcda566f9a52aadb362
   },
   {
     "id": 1744217000486,
@@ -7435,9 +7430,9 @@
     ],
     "description": "It is astonishing how quickly we can accept almost any situation--if we have to--and adjust ourselves to it and forget about it. I often think of an inscription on the ruins of a fifteenth-century cathedral in Amsterdam, Holland. This inscription says in Flemish: \"It is so. I cannot be otherwise.\" As you and I march across decades of time, we are going to meet a lot of unpleasant situations that are so. They cannot be otherwise. We have our choice. We can either accept them as inevitable and adjust ourselves to them, or we can ruin our lives with rebellion and maybe end up with a nervous breakdown. ... \"Acceptance of what has happened is the first step to overcoming the consequences of any misfortune.\"",
     "comments": "You can't control what happens on a grand scale",
-    "helpfulness": 1,
+    "helpfulness": 5,
     "createdAt": "2024-09-13T01:00:37.000Z",
-    "updatedAt": "2024-09-13T01:07:02.663Z"
+    "updatedAt": "2025-04-17T17:50:48.502Z"
   },
   {
     "id": 1744217000508,
