@@ -25,7 +25,11 @@
 	// Set up hotkey on mount
 	onMount(() => {
 		const handleKeydown = (event) => {
-			if (event.key === '\\') {
+			if (
+				event.key === '/' &&
+				!['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName) &&
+				!document.activeElement.isContentEditable
+			) {
 				event.preventDefault(); // Prevent browser default behavior (e.g., bookmark in some browsers)
 				if (titleSelect) {
 					titleSelect.focus();
