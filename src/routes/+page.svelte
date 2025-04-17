@@ -1,4 +1,6 @@
 <script>
+	import { onMount } from 'svelte';
+
 	export let data;
 	let notes = data.notes;
 	let newNote = {
@@ -17,6 +19,30 @@
 	let searchKeyword = '';
 	let searchRating = '';
 	let randomCount = 10;
+
+	let titleSelect;
+
+	// Set up hotkey on mount
+	onMount(() => {
+		const handleKeydown = (event) => {
+			if (event.key === '\\') {
+				event.preventDefault(); // Prevent browser default behavior (e.g., bookmark in some browsers)
+				if (titleSelect) {
+					titleSelect.focus();
+					const filterSection = document.querySelector('#filter-section');
+					filterSection.scrollIntoView({ behavior: 'instant', block: 'start' });
+				}
+			}
+		};
+
+		// Add event listener
+		document.addEventListener('keydown', handleKeydown);
+
+		// Cleanup on component destroy
+		return () => {
+			document.removeEventListener('keydown', handleKeydown);
+		};
+	});
 
 	function resetNewNote() {
 		newNote = {
@@ -207,9 +233,9 @@
 	{/if}
 
 	<!-- Search Filters -->
-	<section>
+	<section id="filter-section">
 		<h2>Filter Notes</h2>
-		<input bind:value={searchTitle} placeholder="Search by Title" />
+		<input bind:value={searchTitle} bind:this={titleSelect} placeholder="Search by Title" />
 		<select bind:value={selectedBook}>
 			<option value="">Search by Book</option>
 			{#each uniqueBooks as book}
