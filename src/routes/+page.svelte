@@ -77,8 +77,12 @@
 		// Ensure count is valid
 		const validCount = Math.min(Math.max(1, count || 0), notes.length);
 
-		// Create a copy of the notes array
-		const shuffled = [...notes];
+		// Filter notes with helpfulness of exactly 1 or >= 5
+		const eligibleNotes = notes.filter((note) => note.helpfulness === 1);
+		// const eligibleNotes = notes.filter(note => note.helpfulness === 1 || note.helpfulness >= 5);
+
+		// Create a copy of the filtered notes array
+		const shuffled = [...eligibleNotes];
 
 		// Fisher-Yates shuffle
 		for (let i = shuffled.length - 1; i > 0; i--) {
@@ -86,8 +90,12 @@
 			[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]; // Swap elements
 		}
 
+		// Return the requested number of notes (or all if fewer are available)
 		return shuffled.slice(0, validCount);
 	}
+
+	// Ensure randomNotes updates reactively
+	$: randomNotes = getRandomNotes(randomCount);
 
 	async function handleAdd(event) {
 		const formData = new FormData(event.target);
