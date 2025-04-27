@@ -92,7 +92,7 @@
 			? note.description.toLowerCase().includes(searchKeyword.toLowerCase()) ||
 				note.comments.toLowerCase().includes(searchKeyword.toLowerCase())
 			: true;
-		const matchesRating = searchRating ? note.helpfulness === parseInt(searchRating) : true;
+		const matchesRating = searchRating ? note.helpfulness >= parseFloat(searchRating) : true;
 		return matchesTitle && matchesBook && matchesTag && matchesKeyword && matchesRating;
 	});
 
