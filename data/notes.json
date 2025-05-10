@@ -709,9 +709,9 @@
     ],
     "description": "1. First, you choose a focus. It might be anything, from any sphere of life. At work, it's supposed to be some aspect of work-let's say, whom to include in an important meeting. 2. Sooner or later, your attention wanders. This isn't what you plan to do. It just happens. (If it were a plan, it would be another focus not a wandering.) 3. Sooner or later, you wake up to the fact that your mind has wandered. You notice the distraction. You realize how far you are from the thing you first wanted to focus on. Again, you can't exactly plan or choose this. 4. Having woken up, you may choose to return to the original theme. For example, whom to invite to that meeting. Then again, you may choose to give up and do something else. It's up to you; it's a choice.",
     "comments": "Focus is often a simple choice. Once you realize that you've distracted yourself, you can choose to be distracted, or you can go back to your focused state.",
-    "helpfulness": 1,
+    "helpfulness": 5.7,
     "createdAt": "2024-06-03T19:02:23.055Z",
-    "updatedAt": "2024-06-03T19:02:23.055Z"
+    "updatedAt": "2025-05-10T16:41:44.642Z"
   },
   {
     "id": 1744217000049,
@@ -1315,10 +1315,10 @@
       "Negativity"
     ],
     "description": "Here's a nonverbal technique to keep the peace and keep yourself and others from losing self-control. Many of the trickiest emotions to be around in their strongest forms, such as anger, contempt, fear and sadness, cannot be sustained for a long period of time. They cause too much strain on the body and mind because they are designed to signal to others strong enough feelings to change the environment for the better, right now. If you or a family member are going through a strong emotion, then move yourself or them away from the immediate environment for just ten minutes. You will most likely find that the strong emotions subside, and then you might be able to talk about the problem rather than just nonverbally reacting to the power of it.",
-    "comments": "",
-    "helpfulness": 1,
+    "comments": "Before things get out of hand, let the heavy emotion dissipate. Anger obviously, but also intense fear, intense sadness, and strong contempt (hatred). Regroup after ten minutes. Get the emotions out and be on your way.",
+    "helpfulness": 7,
     "createdAt": "2024-06-03T23:14:46.113Z",
-    "updatedAt": "2024-06-03T23:14:46.113Z"
+    "updatedAt": "2025-05-10T16:40:43.146Z"
   },
   {
     "id": 1744217000091,
@@ -1818,10 +1818,10 @@
       "Vices"
     ],
     "description": "Who You Have to Become ... Success is not something you pursue. What you pursue will elude you; it can be like trying to chase butterflies. Success is something you attract by the person you become.",
-    "comments": "He talks about wanting a woman by listing qualities he'd like. He questioned whether this woman would want him. So he made the man equivalent of this woman, and became that man. The same applies to jobs. You need to become someone to achieve goals.",
-    "helpfulness": 1,
+    "comments": "He talks about wanting a woman by listing qualities he'd like. He questioned whether this woman would want him. So he made the man equivalent of this woman, and became that man. The same applies to jobs. You need to become someone to achieve goals. You are what you attract. Slobs can't expect anything. The universe knows when you are trying.",
+    "helpfulness": 5,
     "createdAt": "2024-06-06T17:24:57.660Z",
-    "updatedAt": "2024-06-17T21:31:05.788Z"
+    "updatedAt": "2025-05-10T16:43:03.742Z"
   },
   {
     "id": 1744217000125,
@@ -3637,9 +3637,9 @@
     ],
     "description": "\"Difficulties show a person's character. So when a challenge confronts you, remember that God is matching you with a younger sparring partner, as would a physical trainer. Why? Becoming an Olympian takes sweat! I think no one has a better challenge than yours, if only you would use it like an athlete would that younger sparring partner. Everyone has found themselves outmatched by an opponent, frustrated by some skill or attribute they have that we don't--height, speed, vision, whatever. How we choose to respond to that struggle tells us about who we are as athletes and who we'll be as people. Do we see it as a chance to learn and get stronger? Do we get frustrated and complain? Or worse, do we call it off and find an easier game to play, one that makes us feel good instead of challenged? The greats don't avoid these tests of their abilities. They seek them out because they are not just the measure of greatness, they are the pathway to it.",
     "comments": "September 22. Pain is the pathway to success. How you respond to the struggle determines who you are",
-    "helpfulness": 1,
+    "helpfulness": 4,
     "createdAt": "2024-06-06T18:44:15.000Z",
-    "updatedAt": "2024-06-09T21:02:06.896Z"
+    "updatedAt": "2025-05-10T16:48:17.400Z"
   },
   {
     "id": 1744217000247,
@@ -5603,7 +5603,7 @@
   },
   {
     "id": 1744217000376,
-    "title": "Suffering Is Real, and the Artful Infliction of Suffering on Another Is Wrong",
+    "title": "The Artful Infliction of Suffering on Another Is Wrong",
     "page": "197",
     "book": "12 Rules For Life",
     "tags": [
@@ -5612,9 +5612,9 @@
     ],
     "description": "Suffering is real, and the artful infliction of suffering on another, for its own sake, is wrong. That became the cornerstone of my belief. ... Every human has an immense capacity for evil. Each human being understands, a priori, perhaps not what is good, but certainly what is not. And if there is something that is not good, then there is something that is good. If the worst sin is the torment of others, merely for the sake of the suffering produced--then the good is whatever is diametrically opposed to that. The good is whatever stops such things from happening.",
     "comments": "Don't hurt others for fun. Don't spite them no matter what. It's wrong. The best revenge is not served",
-    "helpfulness": 1,
+    "helpfulness": 5.9,
     "createdAt": "2024-06-23T20:31:31.000Z",
-    "updatedAt": "2024-06-23T20:59:57.285Z"
+    "updatedAt": "2025-05-10T16:51:39.754Z"
   },
   {
     "id": 1744217000377,
@@ -6273,12 +6273,14 @@
     "title": "Accept That You'll Be \"Creepy\" Sometimes",
     "page": "114",
     "book": "Models",
-    "tags": [],
+    "tags": [
+      "Relationships"
+    ],
     "description": "Paradoxically, the way to interact with women in a vulnerable way and, therefore, the way to combat creepiness, is to accept that some women will find you creepy some of the time. Just as with rejection, the more you're willing to risk it, the less it will happen. The more comfortable you are with women finding you creepy, and the more uninhibited and vulnerable your actions and words are around women, the more aware and respectful you are of their interests and desires, the less likely they will find you creepy.",
     "comments": "",
-    "helpfulness": 1,
+    "helpfulness": 4.9,
     "createdAt": "2024-07-17T04:21:05.000Z",
-    "updatedAt": "2024-07-17T04:21:05.000Z"
+    "updatedAt": "2025-05-10T16:46:49.311Z"
   },
   {
     "id": 1744217000427,
@@ -6413,12 +6415,14 @@
     "title": "Honesty About Sex",
     "page": "149",
     "book": "Models",
-    "tags": [],
+    "tags": [
+      "Relationships"
+    ],
     "description": "Also, be honest. If you don't like the way she gives a blowjob, tell her and then tell her how you do like it. But also, be honest with the compliments. Tell her she's beautiful naked. Tell her you love how she rides you. Tell her she looks sexy in that position Be open and honest. Communicate. The most important factor for good sex is how comfortable the two people are around each other. ",
     "comments": "",
-    "helpfulness": 1,
+    "helpfulness": 4.9,
     "createdAt": "2024-07-17T04:21:05.000Z",
-    "updatedAt": "2024-07-17T04:21:05.000Z"
+    "updatedAt": "2025-05-10T16:45:04.543Z"
   },
   {
     "id": 1744217000438,
@@ -6674,10 +6678,10 @@
       "Focus"
     ],
     "description": "Thinking about your problems all the time, and talking about your problems all the time, literally makes your problems grow. That's right. It's the number one symptom of depression is what they call rumination, this pathological obsessing over your pain. That's why stuff like exercise, running errands, getting out of your house, accomplishing anything, is good for you. But sitting around talking and thinking about your problems, that's a bad habit.",
-    "comments": "",
-    "helpfulness": 1,
+    "comments": "Don't choose to live in a rut, look at the dark side, wallow in your own pity. You are meant to smile and enjoy the gift of life.",
+    "helpfulness": 6,
     "createdAt": "2024-09-13T01:00:37.000Z",
-    "updatedAt": "2024-09-13T01:28:32.987Z"
+    "updatedAt": "2025-05-10T16:50:12.448Z"
   },
   {
     "id": 1744217000456,
@@ -7816,9 +7820,9 @@
     ],
     "description": "\"Weren't you always tired?\" ... When you're chasing a vision and working toward a big goal, there is nothing more energizing than making progress. ... This is the kind of headspace people are referring to when they talk about slipping into \"flow state.\" Time expands and collapses ... Writers, musicians, computer programmers, chess masters, architects, artists, anyone with a hobby they are truly passionate about--they all have stories like this. Stories of doing work that seem to defy the limits of human attention span and physiology ...",
     "comments": "Hazelnut wasn't tired at four-thirty in the morning. If you are really committed to something, you won't get tired. \"I'm too tired\" means you don't care. Start caring because that is the only way to stop you from doing nothing. \"rest is for babies and relaxing is for retired people\". Don't you have goals? Or are you going to age on the couch",
-    "helpfulness": 1,
+    "helpfulness": 6,
     "createdAt": "2025-03-14T02:40:36.323Z",
-    "updatedAt": "2025-03-14T02:52:58.850Z"
+    "updatedAt": "2025-05-10T16:46:08.162Z"
   },
   {
     "id": 1744217000531,
@@ -7831,9 +7835,9 @@
     ],
     "description": "There is a motivational saying I love: \"See it. Believe it. Achieve it.\" But I think it's missing a step in between: Explain it. Before you can achieve your goals, I think you need to express them. Share them. I think you need to admit to yourself, and communicate to others, that this thing that started in your mind as a little idea has exploded into a massive dream with huge potential to benefit your life and theirs",
     "comments": "If you have an idea, you need to sell it. Let them underestimate you. Give the customer more than they expected and leave them feeling like they're getting the better end of the deal. Articulate your idea. Let share the dream. Build that hempire",
-    "helpfulness": 1,
+    "helpfulness": 5,
     "createdAt": "2025-03-26T02:59:44.174Z",
-    "updatedAt": "2025-03-26T02:59:44.174Z"
+    "updatedAt": "2025-05-10T16:51:05.000Z"
   },
   {
     "id": 1744217000532,
