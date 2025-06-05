@@ -81,6 +81,9 @@
 	$: uniqueBooks = [...new Set(notes.map((note) => note.book))].sort();
 	$: uniqueTags = [...new Set(notes.flatMap((note) => note.tags))].sort();
 
+	$: countHelpfulnessOne = notes.filter(note => note.helpfulness === 1).length;
+	$: countHelpfulnessFivePlus = notes.filter(note => note.helpfulness >= 5).length;
+
 	// Modified filteredNotes to use selectedBook
 	$: filteredNotes = notes.filter((note) => {
 		const matchesTitle = searchTitle
@@ -292,7 +295,7 @@
 
 	<!-- Random Notes -->
 	<section>
-		<h2>Random Notes</h2>
+		<h2>Random Notes ({countHelpfulnessFivePlus}) ({countHelpfulnessOne})</h2>
 		<input bind:value={randomCount} type="number" min="1" placeholder="Number of random notes" />
 		<ul>
 			{#each randomNotes as note (note.id)}
