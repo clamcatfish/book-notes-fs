@@ -111,7 +111,7 @@
 		const validCount = Math.min(Math.max(1, count || 0), notes.length);
 
 		// Filter notes with helpfulness of exactly 1 or >= 5
-		const eligibleNotes = notes.filter((note) => note.helpfulness === 6);
+		const eligibleNotes = notes.filter((note) => note.helpfulness >= 6);
 		// const eligibleNotes = notes.filter(note => note.helpfulness === 1 || note.helpfulness >= 5);
 
 		// Create a copy of the filtered notes array
@@ -295,7 +295,7 @@
 
 	<!-- Random Notes -->
 	<section>
-		<h2>Random Notes ({countHelpfulnessFivePlus}) ({countHelpfulnessOne})</h2>
+		<h2>Random Notes ({countHelpfulnessOne})</h2>
 		<input bind:value={randomCount} type="number" min="1" placeholder="Number of random notes" />
 		<ul>
 			{#each randomNotes as note (note.id)}
