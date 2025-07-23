@@ -111,7 +111,7 @@
 		const validCount = Math.min(Math.max(1, count || 0), notes.length);
 
 		// Filter notes with helpfulness of exactly 1 or >= 5
-		const eligibleNotes = notes.filter((note) => note.helpfulness === 1);
+		const eligibleNotes = notes.filter((note) => note.helpfulness === 6);
 		// const eligibleNotes = notes.filter(note => note.helpfulness === 1 || note.helpfulness >= 5);
 
 		// Create a copy of the filtered notes array
